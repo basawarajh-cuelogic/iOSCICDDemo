@@ -14,6 +14,8 @@
 		659904DC1EADE410005E5B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659904DB1EADE410005E5B60 /* Assets.xcassets */; };
 		659904DF1EADE410005E5B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659904DD1EADE410005E5B60 /* LaunchScreen.storyboard */; };
 		659904EA1EADE411005E5B60 /* iOSCICDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659904E91EADE411005E5B60 /* iOSCICDDemoTests.m */; };
+		65EA59111EADFF270026A3DE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 659904E01EADE410005E5B60 /* Info.plist */; };
+		65EA59161EAE13BF0026A3DE /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA59151EAE13BF0026A3DE /* Validator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		659904E51EADE411005E5B60 /* iOSCICDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCICDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659904E91EADE411005E5B60 /* iOSCICDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCICDDemoTests.m; sourceTree = "<group>"; };
 		659904EB1EADE411005E5B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EA59141EAE13BF0026A3DE /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		65EA59151EAE13BF0026A3DE /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		659904CE1EADE410005E5B60 /* iOSCICDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65EA59131EAE13BF0026A3DE /* Validator */,
 				659904D21EADE410005E5B60 /* AppDelegate.h */,
 				659904D31EADE410005E5B60 /* AppDelegate.m */,
 				659904D51EADE410005E5B60 /* ViewController.h */,
@@ -109,6 +114,15 @@
 				659904EB1EADE411005E5B60 /* Info.plist */,
 			);
 			path = iOSCICDDemoTests;
+			sourceTree = "<group>";
+		};
+		65EA59131EAE13BF0026A3DE /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				65EA59141EAE13BF0026A3DE /* Validator.h */,
+				65EA59151EAE13BF0026A3DE /* Validator.m */,
+			);
+			path = Validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EA59111EADFF270026A3DE /* Info.plist in Resources */,
 				659904DF1EADE410005E5B60 /* LaunchScreen.storyboard in Resources */,
 				659904DC1EADE410005E5B60 /* Assets.xcassets in Resources */,
 				659904DA1EADE410005E5B60 /* Main.storyboard in Resources */,
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EA59161EAE13BF0026A3DE /* Validator.m in Sources */,
 				659904D71EADE410005E5B60 /* ViewController.m in Sources */,
 				659904D41EADE410005E5B60 /* AppDelegate.m in Sources */,
 				659904D11EADE410005E5B60 /* main.m in Sources */,
